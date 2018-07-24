@@ -2,7 +2,10 @@ package sample;
 
 import javafx.animation.AnimationTimer;
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
+import javafx.scene.text.Text;
+
 
 public class Controller{
 
@@ -12,8 +15,11 @@ public class Controller{
     @FXML
     StackPane mainPane;
 
+    @FXML
+    Label score;
+
     public void initialize(){
-        Model model = new Model(mainPane, snakesHead);
+        Model model = new Model(this, mainPane, snakesHead);
         snakesHead.setFocusTraversable(true);
         snakesHead.setOnKeyPressed(event -> {
             switch (event.getCode()){
@@ -25,7 +31,6 @@ public class Controller{
         });
         snakesHead.setMoveRight(true);
         model.generateFruit();
-        System.out.println(mainPane.getChildren());
         AnimationTimer at = new AnimationTimer() {
             private long lastUpdate = 0;
             @Override
@@ -38,10 +43,18 @@ public class Controller{
                                 (snakesHead.getTranslateY() == mainPane.lookup("#fruit").getTranslateY()))
                             model.eatFruit();
                     }
+                    model.renderSnakesBody();
+                    if(model.checkIfCollides(snakesHead)) {
+                        this.stop();
+                    }
                 }
             }
         };
         at.start();
+    }
+
+    public void updateScore(int value){
+        score.setText("SCORE: " + Integer.toString(value));
     }
 
 }

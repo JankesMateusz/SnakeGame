@@ -1,0 +1,9 @@
+<?import javafx.scene.layout.StackPane?>
+<?import sample.Snake?>
+<?import javafx.scene.control.Label?>
+
+<StackPane fx:id="mainPane" fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml"
+           stylesheets="@styling.css" prefWidth="760" prefHeight="760" >
+    <Snake fx:id="snakesHead" width="40" height="40" fill="green" />
+    <Label fx:id="score" text="SCORE: 0" prefWidth="100" prefHeight="25" translateX="300" translateY="-350" textFill="yellow"/>
+</StackPane>
