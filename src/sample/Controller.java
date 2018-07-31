@@ -29,12 +29,15 @@ public class Controller{
         snakesHead.setFocusTraversable(true);
         snakesHead.setOnKeyPressed(event -> {
             switch (event.getCode()){
-                case RIGHT: model.turnSnakeRight(); break;
-                case LEFT: model.turnSnakeLeft(); break;
-                case DOWN: model.turnSnakeDown(); break;
-                case UP: model.turnSnakeUp(); break;
+                case RIGHT: rightKeyPressed.set(true); break;
+                case LEFT: leftKeyPressed.set(true); break;
+                case DOWN: downKeyPressed.set(true); break;
+                case UP: upKeyPressed.set(true); break;
             }
         });
+
+        
+
         snakesHead.setMoveRight(true);
         model.generateFruit();
         AnimationTimer at = new AnimationTimer() {

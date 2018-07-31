@@ -7,9 +7,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ViewController.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ViewNavigator.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/view.fxml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SnakeGame/sample/sample.fxml" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/sample.fxml" afterPath="$PROJECT_DIR$/src/sample/MainGame.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SnakeGame/sample/Model.class" afterPath="$PROJECT_DIR$/out/production/SnakeGame/sample/Model.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
@@ -87,8 +85,8 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="442">
+              <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,9 +220,9 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="283" />
-    <option name="y" value="210" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="138" />
+    <option name="y" value="89" />
     <option name="width" value="1523" />
     <option name="height" value="1027" />
   </component>
@@ -459,7 +457,7 @@
       <workItem from="1532508400794" duration="53000" />
       <workItem from="1532639835911" duration="1316000" />
       <workItem from="1532688617886" duration="676000" />
-      <workItem from="1533030988458" duration="7919000" />
+      <workItem from="1533030988458" duration="9358000" />
     </task>
     <task id="LOCAL-00001" summary="All files added">
       <created>1532437184302</created>
@@ -472,10 +470,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73651000" />
+    <option name="totallyTimeSpent" value="75090000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="283" y="210" width="1523" height="1027" extended-state="1" />
+    <frame x="138" y="89" width="1523" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -969,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="442">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
