@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="sample.MenuController"
+      prefHeight="760" prefWidth="760"
+      fx:id="menu" alignment="CENTER"
+      stylesheets="@styling.css" spacing="50">
+
+    <Label prefHeight="100" prefWidth="500" text="SNAKE GAME" alignment="CENTER"/>
+
+    <Button fx:id="startButton" text="START" prefHeight="100" prefWidth="300" onAction="#startGame"/>
+
+    <Button fx:id="topScoresButton" text="TOP SCORES" prefHeight="100" prefWidth="300"/>
+
+    <Button fx:id="exitButton" text="EXIT" prefHeight="100" prefWidth="300" onAction="#exit"/>
+
+</VBox>

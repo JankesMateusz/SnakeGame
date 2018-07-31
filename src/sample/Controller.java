@@ -1,10 +1,11 @@
 package sample;
 
 import javafx.animation.AnimationTimer;
+import javafx.beans.property.BooleanProperty;
+import javafx.beans.property.SimpleBooleanProperty;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
-import javafx.scene.text.Text;
 
 
 public class Controller{
@@ -17,6 +18,11 @@ public class Controller{
 
     @FXML
     Label score;
+
+    private BooleanProperty leftKeyPressed = new SimpleBooleanProperty(false);
+    private BooleanProperty rightKeyPressed = new SimpleBooleanProperty(false);
+    private BooleanProperty upKeyPressed = new SimpleBooleanProperty(false);
+    private BooleanProperty downKeyPressed = new SimpleBooleanProperty(false);
 
     public void initialize(){
         Model model = new Model(this, mainPane, snakesHead);

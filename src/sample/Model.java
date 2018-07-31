@@ -59,6 +59,9 @@ public class Model {
             snake.setMoveDown(false);
             snake.setMoveLeft(false);
             snake.setMoveRight(true);
+
+            System.out.println(snake.getMoveDown() + " " + snake.getMoveRight() + " " + snake.getMoveLeft() + " " +  snake.getMoveUp());
+            System.out.println("RIGHT");
         }
     }
 
@@ -68,6 +71,9 @@ public class Model {
             snake.setMoveRight(false);
             snake.setMoveDown(false);
             snake.setMoveLeft(true);
+
+            System.out.println(snake.getMoveDown() + " " + snake.getMoveRight() + " " + snake.getMoveLeft() + " " +  snake.getMoveUp());
+            System.out.println("LEFT");
         }
     }
 
@@ -77,6 +83,9 @@ public class Model {
             snake.setMoveLeft(false);
             snake.setMoveDown(false);
             snake.setMoveUp(true);
+
+            System.out.println(snake.getMoveDown() + " " + snake.getMoveRight() + " " + snake.getMoveLeft() + " " +  snake.getMoveUp());
+            System.out.println("UP");
         }
     }
 
@@ -86,6 +95,9 @@ public class Model {
             snake.setMoveLeft(false);
             snake.setMoveDown(false);
             snake.setMoveDown(true);
+
+            System.out.println(snake.getMoveDown() + " " + snake.getMoveRight() + " " + snake.getMoveLeft() + " " +  snake.getMoveUp());
+            System.out.println("DOWN");
         }
     }
 
@@ -114,6 +126,9 @@ public class Model {
         counter++;
         controller.updateScore(counter);
     }
+
+
+    /*===== GROWING SNAKE AND RENDERING ITS BODY =====*/
 
     private void growSnake() {
         Snake bodyPart = new Snake();

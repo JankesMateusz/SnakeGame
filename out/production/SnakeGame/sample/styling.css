@@ -1,3 +1,27 @@
 #mainPane{
     -fx-background-color: black;
 }
+
+#menu{
+    -fx-background-color: black;
+}
+
+#menu Label{
+    -fx-background-color: black;
+    -fx-border-width: 5px;
+    -fx-border-radius: 50%;
+    -fx-border-color: lightblue;
+    -fx-text-fill: darkred;
+    -fx-font-weight: bold;
+    -fx-font-size: 50;
+}
+
+#menu Button{
+    -fx-background-color: black;
+    -fx-border-width: 5px;
+    -fx-border-radius: 50%;
+    -fx-border-color: lightblue;
+    -fx-text-fill: whitesmoke;
+    -fx-font-weight: bold;
+    -fx-font-size: 30;
+}
