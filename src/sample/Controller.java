@@ -19,11 +19,6 @@ public class Controller{
     @FXML
     Label score;
 
-    private BooleanProperty leftKeyPressed = new SimpleBooleanProperty(false);
-    private BooleanProperty rightKeyPressed = new SimpleBooleanProperty(false);
-    private BooleanProperty upKeyPressed = new SimpleBooleanProperty(false);
-    private BooleanProperty downKeyPressed = new SimpleBooleanProperty(false);
-
     public void initialize(){
         Model model = new Model(this, mainPane, snakesHead);
         snakesHead.setFocusTraversable(true);
